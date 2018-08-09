@@ -1,0 +1,82 @@
+<html>
+	<head>
+		<title>My Webpage</title>
+		<style>
+			body {
+				background-color: #25BEA0;
+				display: flex;
+				justify-content: center;
+			}
+
+			h2 {
+				color: #224021;
+			}
+
+			.page {
+				background-color: #FABC09;
+				padding: 60px;
+			}
+
+			.button {
+				background-color: #8faebe;
+				color: black;
+				text-decoration: none;
+				padding: 10px;
+				border: 2px solid #005b95;
+				border-radius: 20px;
+				box-shadow: 2px 2px 1px black;
+			}
+
+			.button:hover {
+				background-color: #b3d3e2;
+				border: 2px solid #71a3b3;
+			}
+		</style>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="page">
+			<center>
+				<h1>WELCOME HERE</h1>
+				<img src="myProfile.png" height="150" class="myProfile">
+			</center>
+
+			<br><br>
+			<a href="#" onclick="flipCoin(0.5)" class="button">My Button 1</a>
+			<a href="#" onclick="flipCoin(0)" class="button">My Button 2</a>
+			<a href="#" onclick="resize()" class="button">My Button 3</a>
+			<br><br>
+
+			<h2>
+				Something about Me
+			</h2>
+			<p>
+				I was born in Brazil,<br>
+				studied in France,<br>
+				and the moved to London.<br><br>
+				Personal Quote:
+				<em>Brazil is gonna win the World Cup</em>
+			</p>
+			<h2>Expertise</h2>
+			<ul>
+				<li>Preparing porridge</li>
+				<li>Slacklining</li>
+				<li>
+					4 chords songs in the guitar
+				</li>
+			</ul>
+			<h2>Top 3 salads</h2>
+			<ol>
+				<li>Double salmon, spinach, olive oil and lemon juice</li>
+				<li>Double salmon, lettuce, olive oil and lemon juice</li>
+				<li>Double chicken, spinach, spicy peanut sauce</li>
+			</ol>
+			<hr>
+			<a href="https://facebook.com/bruno.jurkovski">FB</a>
+			<a href="https://twitter.com/snapchat">
+				Snapchat
+			</a>
+		</div>
+	</body>
+</html>
